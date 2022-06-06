@@ -2,3 +2,4 @@ __pycache__
 flask
 tcp_uploads
 uploads
+tamanito.py

@@ -2,7 +2,7 @@ import socket
 import os
 
 def sendToTCP( filename ):
-    HOSTS = ( "192.168.100.15", "192.168.100.15", "192.168.100.15" )
+    HOSTS = ( "192.168.100.15", "192.168.100.15", "192.168.100.15" ) # Cambiar por direcciones de los servidores TCP
     PORTS = ( 8080, 8080, 8080 )
     BYTES_TO_RECIEVE = 5
     BYTES_TO_READ = 250
@@ -47,7 +47,7 @@ def sendToTCP( filename ):
             i += 1
 
 def recvFromTCP( filename ):
-    HOSTS = ( "192.168.100.15", "192.168.100.15", "192.168.100.15" )
+    HOSTS = ( "192.168.100.15", "192.168.100.15", "192.168.100.15" ) # Cambiar por direcciones de los servidores TCP
     PORTS = ( 8080, 8080, 8080 )
     BYTES_TO_RECIEVE = 250
 
